@@ -13,19 +13,14 @@
     <h1>Integrando HTML com js</h1>    
     <form id="form-confirm">
     <H2>Preencha os campos</H2>
-    <label for="valA">valor-A</label>
+    <label for="valA"> valor-A </label>
     <input type="number" id="valA"  required placeholder="Digite o campo A">
-    <label for="valB">valor-B</label>
+    <label for="valB"> valor-B </label>
     <input type="number" id="valB"  required placeholder="Digite o campo B">
-    <button id="btn-validar" type="submit">Validar</button>
+    <button id="submitButton" type="submit"> Validar </button>
 </form>
-<p class="success-message">
-    O valor-B: é maior que o valor-A
-
 </p>
-<P class="error-message">
-    O valor-B  nao é maior queo valor-A
-</P>
+<P  id="mensagem"> Resultado: </P>
 </div>
 
 <script src="./main.js"></script>
